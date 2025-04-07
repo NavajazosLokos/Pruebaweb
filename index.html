@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Estudiante</title>
+</head>
+<body>
+    <h2>Añadir Estudiante</h2>
+    <form action="http://localhost:5678/webhook/añadir-estudiante" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo" required><br><br>
+
+        <label for="carrera">Carrera:</label>
+        <input type="text" id="carrera" name="carrera" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required><br><br>
+
+        <button type="submit">Añadir Estudiante</button>
+    </form>
+</body>
+</html>
